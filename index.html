@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>INNO-TECH</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" type="image/png" href="img/apoyo-tecnico.png">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">INNO-TECH</a>
+                <a href="#">
+                    <img src="img/apoyo-tecnico.png" alt="Icono" class="icono">
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">SERVICIOS</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PROYECTOS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/yoo.png" alt="">
+            </div>
+            <h1>EDWIN VENTURA</h1>
+            <br></br>
+            <h2> • Desarrollador Web</h2>
+            <h2> • Tecnico en ingeniería en Computacion</h2>
+            <h2> • Implementación de tecnología de información</h2>
+            <h2> • Soporte tecnico hardware</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=+50361831540&text=Hola,%20este%20es%20mi%20mensaje"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="mailto:edwinventura110@gmail.com"><i class="fa-brands fa-google"></i></a>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p>Soy un desarrollador web con habilidades frontend y backend. Con la capacidad de crear soluciones creativas y innovadores en el campo de la Informatica y la tecnologia. </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Teléfono</strong>
+                            6183-1540
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            edwinventura110@gmail.com
+                        </li>
+
+                        <li>
+                            <strong>Servicio</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-lock"></i>
+                            <span>SEGURIDAD</span>
+                            <span>INFORMATICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-gear"></i>
+                            <span>AUTOMATIZACION</span>
+                            <span>DE TAREAS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-code"></i>
+                            <span>DESARROLLO WEB</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>SISTEMAS</span>
+                            <span>OPERATIVOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a download = "CV - EDWIN VENTURA"  href="img/CURRICULUM VITAE EDWIN VENTURA.pdf" class="cta">DESCARGAR CV</a>
+                
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades tecnicas</h3>
+                    <div class="skill">
+                        <span>Redes y conectividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML,CSS y librerias</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MYSQL - SQL SERVER - ORACLE</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>LENGUAJES DE PROGRAMACION PHP - C#</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Soporte tecnico y Mantenimiento de hardware</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Analisis de datos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="skill">
+                        <span>Gestion de Proyectos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades personales</h3>
+                    <div class="skill">
+                        <span>Comunicación efectiva</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Servicios</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <div class="item izq">
+                        <span class="casa">Soporte y Mantenimiento de Hardware</span>
+                        <p> • Diagnóstico y Solución de Problemas</p>
+                        <p> • Actualizaciones y Mejoras</p>
+                        <p> • Mantenimiento preventivo y limpieza de equipos</p>
+                        <p> • Optimización y configuracion de equipos</p>
+                        
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <span class="casa">Instalacion y configuracion de software</span>
+                        <p> • Configuracion Personalizada</p>
+                        <p> • Instalacion guiada</p>
+                        <p> • Asesoramiento técnico</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <span class="casa">Redes y conectividad</span>
+                        <p> • Instalación y Configuración de Equipos de Red</p>
+                        <p> • Resolución de Problemas de Conectividad</p>
+                        <p> • Optimización de Redes VoIP</p>
+                        <p> • Configuración de Redes para Dispositivos Inteligentes</p>
+
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <div class="item der">
+                        <span class="casa">Desarrollo web FRONTEND</span>
+                        <p> • Diseño Web Responsivo</p>
+                        <p> • Desarrollo de Interfaces Intuitivas</p>
+                        <p> • Desarrollo de Sitios Web Estáticos y Dinámicos</p>
+                        <p> • Asesoramiento técnico</p>
+
+
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <span class="casa">Desarrollo de aplicaciones BACKEND</span>
+                        <p> • Diseño y desarrollo de aplicaciones interpretados en el servidor</p>
+                        <p> • Gestión de Bases de Datos</p>
+                        <p> • Optimización de Rendimiento</p>
+
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <span class="casa">Diseño y configuración de sistemas</span>
+                        <p> • Análisis de Requisitos y Diseño de Sistemas</p>
+                        <p> • Pruebas y Depuración</p>
+                        <p> • Optimización de Procesos</p>
+                        <p> • Gestión de Datos y Análisis</p>
+                        <p> • Capacitación y Soporte al usuario</p>
+
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PROYECTOS DESARROLLADOS</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/proyecto 3.png" alt="">
+                    <div class="overlay">
+                        <h3>Aplicacion web para gimnasio</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/proyecto 2.png" alt="">
+                    <div class="overlay">
+                        <h3>Aplicacion web para producto</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/proyecto 1.png" alt="">
+                    <div class="overlay">
+                        <h3>Aplicacion web para institución</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/limpieza.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Limpieza de equipos</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/instalacion.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Instalacion y configuracion de software</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/mantenimiento.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Mantenimiento preventivo y correctivo de equipos</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Correo electrónico">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/contacto.jpg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                San Salvador, El Salvador
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llama al: 6183-1540
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Correo de contacto: edwinventura110@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="mailto:edwinventura110@gmail.com"><i class="fa-brands fa-google"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
